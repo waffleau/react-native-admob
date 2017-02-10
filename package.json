@@ -10,7 +10,7 @@
     "url": "git@github.com:sbugert/react-native-admob.git"
   },
   "peerDependencies": {
-    "react-native": "^0.40",
-    "react": "^15.4"
+    "react-native": ">=0.40",
+    "react": ">=15.4"
   }
 }
