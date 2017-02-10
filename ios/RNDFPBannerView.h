@@ -1,4 +1,5 @@
-#import "RCTEventDispatcher.h"
+#import <React/RCTEventDispatcher.h>
+
 @import GoogleMobileAds;
 
 @class RCTEventDispatcher;

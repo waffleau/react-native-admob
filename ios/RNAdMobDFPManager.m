@@ -1,7 +1,7 @@
 #import "RNAdMobDFPManager.h"
 #import "RNDFPBannerView.h"
 
-#import "RCTBridge.h"
+#import <React/RCTBridge.h>
 
 @implementation RNAdMobDFPManager
 
@@ -39,4 +39,3 @@ RCT_EXPORT_VIEW_PROPERTY(adUnitID, NSString);
 RCT_EXPORT_VIEW_PROPERTY(testDeviceID, NSString);
 
 @end
-
