@@ -123,11 +123,12 @@ RCT_NOT_IMPLEMENTED(- (instancetype)initWithCoder:coder)
 {
   [super layoutSubviews ];
 
-  _bannerView.frame = CGRectMake(
+  self.frame = CGRectMake(
     self.bounds.origin.x,
     self.bounds.origin.x,
     _bannerView.frame.size.width,
     _bannerView.frame.size.height);
+    
   [self addSubview:_bannerView];
 }
 
