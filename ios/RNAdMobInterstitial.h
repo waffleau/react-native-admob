@@ -1,6 +1,6 @@
 #import <React/RCTBridgeModule.h>
 
-#import <RCTEventDispatcher.h>
+#import <React/RCTEventDispatcher.h>
 
 @import GoogleMobileAds;
 
